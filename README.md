@@ -1,0 +1,1 @@
+"For the note taking assignment"
