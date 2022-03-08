@@ -58,30 +58,46 @@
   nav {
     position: sticky;
     top: 0;
-    background-color: #f0efeb
+    background-color: #f0efeb;
   }
 
   .create-note {
-    list-style-type: none;
-    width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    border: none;
+    line-height: 2.5;
+    padding: 0 250px;
+    text-align: center;
+    margin: 5px;
+    list-style-type: none;
   }
   
+  .sidebar {
+    list-style-type: none;
+  }
+
   h1 {
     list-style-type: none;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;   
+    justify-content: flex-end;
   }
 
-  p {
+  a {
+    text-decoration: none;
+  }
+
+  footer {
     list-style-type: none;
     width: 100%;
     display: flex;
     position: absolute;
     bottom: 0;
     justify-content: center;    
+  }
+
+  .textarea {
+      display: flex;
+      padding: 0 250;
+      text-align: center;
   }
