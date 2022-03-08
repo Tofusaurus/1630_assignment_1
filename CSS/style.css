@@ -72,15 +72,16 @@
   }
   
   .sidebar {
+    display: flex;
     list-style-type: none;
   }
 
-  h1 {
+  h1 ul, li {
     list-style-type: none;
-    width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: flex-end;
+    padding: 10px;
   }
 
   a {
@@ -96,8 +97,7 @@
     justify-content: center;    
   }
 
-  .textarea {
+  .text-box {
       display: flex;
-      padding: 0 250;
-      text-align: center;
+      justify-content: center;
   }
