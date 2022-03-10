@@ -102,9 +102,11 @@
     justify-content: center;
   }
 
-  .style {
+  .buttons {
     display: flex;
-    position: absolute;
-    bottom: 0;  
     justify-content: center;
+  }
+
+  .side_box {
+    display: flex;
   }
