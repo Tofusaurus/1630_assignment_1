@@ -82,6 +82,8 @@
   .text-box {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
   }
 
   .buttons {
@@ -121,5 +123,13 @@
     .row {
       -webkit-flex-direction: column;
       flex-direction: column;
+    }
+    #side_menu {
+      width: auto;
+    }
+
+    .footer {
+      margin: auto;
+      width: auto;
     }
   }
