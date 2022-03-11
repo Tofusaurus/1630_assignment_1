@@ -73,7 +73,7 @@
     list-style-type: none;
     width: 100%;
     display: flex;
-    position: sticky;
+    position: absolute;
     bottom: 0;
     justify-content: center;
     font-family: 'PT Serif', serif    
@@ -125,11 +125,6 @@
       flex-direction: column;
     }
     #side_menu {
-      width: auto;
-    }
-
-    .footer {
-      margin: auto;
       width: auto;
     }
   }
