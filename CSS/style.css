@@ -33,13 +33,13 @@
   }
 
   body {
-      background-color: #f0efeb
+      background-color: #FFFAF3;
   }
 
   nav {
     position: sticky;
     top: 0;
-    background-color: #f0efeb;
+    background-color: #FFFAF3;
   }
 
   .create-note {
@@ -73,7 +73,7 @@
     list-style-type: none;
     width: 100%;
     display: flex;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     justify-content: center;    
   }
@@ -98,8 +98,16 @@
     direction: column;
     justify-content: start;
     padding: 10px;
-    background-color: red;
+    background-color: #EBBCBA;
     height: 100%;
     width: 20%;
     float: left;
   }
+
+  #arrow {
+    background: none;
+    border: none;
+    display: flex;
+  }
+
+  
