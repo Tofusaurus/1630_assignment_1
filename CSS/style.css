@@ -75,7 +75,8 @@
     display: flex;
     position: sticky;
     bottom: 0;
-    justify-content: center;    
+    justify-content: center;
+    font-family: 'PT Serif', serif    
   }
 
   .text-box {
@@ -93,6 +94,7 @@
   }
 
   #side_menu {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     list-style-type: none;
     display: flex;
     direction: column;
