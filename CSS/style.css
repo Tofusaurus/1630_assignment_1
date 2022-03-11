@@ -57,7 +57,7 @@
     list-style-type: none;
   }
 
-  .about_doc ul, li {
+  #about_doc ul, li {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -92,10 +92,14 @@
     display: flex;
   }
 
-  .side_menu, li {
+  #side_menu {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    direction: column;
+    justify-content: start;
     padding: 10px;
+    background-color: red;
+    height: 100%;
+    width: 20%;
+    float: left;
   }
