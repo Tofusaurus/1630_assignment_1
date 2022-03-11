@@ -110,4 +110,14 @@
     display: flex;
   }
 
-  
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
